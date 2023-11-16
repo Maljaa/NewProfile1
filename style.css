@@ -1,0 +1,158 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	text-align: center;
+}
+
+.top-container {
+	padding-top: 100px;
+}
+.topbook {
+	position: absolute;
+	top: 85px;
+	right: 350px;
+}
+
+h1 {
+	margin: 50px auto 0 auto;
+	font-size: 3.5;
+}
+
+h2 {
+	padding-bottom: 20px;
+	font-size: 2.5rem;
+}
+hr {
+	border: dotted 6px #eaf6f6;
+	border-bottom: none;
+	width: 4%;
+	margin: 100px auto;
+}
+
+.bottombook {
+	position: absolute;
+	top: 270px;
+	left: 310px;
+}
+
+.profile-img {
+	height: 230px;
+}
+
+.skills {
+	display: grid;
+	grid-template-columns: 0.5fr 1fr;
+	grid-template-rows: 0.5fr 1fr;
+	width: 50%;
+	text-align: left;
+	margin: 100px auto 0 auto;
+	row-gap: 2rem;
+}
+
+/* CSS */
+.button-64 {
+	background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+	border: 0;
+	border-radius: 8px;
+	box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+	box-sizing: border-box;
+	color: #ffffff;
+	font-family: Phantomsans, sans-serif;
+	font-size: 20px;
+
+	line-height: 1em;
+	max-width: 180px;
+	min-width: 140px;
+	padding: 12px 3px 12px 3px;
+	text-decoration: none;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+.button-64:active,
+.button-64:hover {
+	outline: 0;
+}
+
+.button-64 span {
+	background-color: rgb(5, 6, 45);
+	padding: 9px 16px;
+	border-radius: 6px;
+	width: 100%;
+	height: 100%;
+	transition: 300ms;
+	text-align: center;
+}
+
+.button-64:hover span {
+	background: none;
+}
+
+@media (min-width: 768px) {
+	.button-64 {
+		font-size: 24px;
+		min-width: 196px;
+	}
+}
+
+/* Untuk layar dengan lebar kurang dari 600px 
+@media (max-width: 700px) {
+	.button-64 {*/
+/* min-width: 140px; Menggunakan lebar maksimum untuk layar kecil
+		font-size: 20px;
+		left: 29%;
+	}
+} */
+
+.contact {
+	margin: 100px 0;
+}
+
+.nav-item > a.text-muted {
+	color: whitesmoke !important;
+	margin: 10px 20px;
+	font-family: "Bitter", serif;
+	text-decoration: none;
+}
+.nav-item > a:hover {
+	color: #000000 !important;
+}
+footer {
+	background: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+	background-size: 180% 180%;
+	animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+footer > p.text-muted {
+	--bs-text-opacity: 1;
+	color: var(--bs-secondary-color);
+	color: aliceblue !important;
+}
+
+/* a {
+	color: #e4dccf;
+	margin: 10px 20px;
+	font-family: "Bitter", serif;
+	text-decoration: none;
+}
+a:hover {
+	color: #e3a94b;
+} */

@@ -1,0 +1,12 @@
+<h1>I'am Azril</h1>
+				<h2>A Philosopher</h2>
+                				<h3>Hello</h3>
+				<p>
+					I was an philosopher until I died. For now I'm studying software
+					engineering
+				</p>
+				<h3>My Skill</h3>
+				<h5>Artist & Problem solver</h5>
+				<h5>Stand Up Comedy</h5>
+				<h3>Get In Touch</h3>
+				<h5>If You Have a Good Sense Of Humor Too</h5>
